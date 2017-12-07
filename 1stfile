@@ -1,3 +1,5 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/Deepu19/deepu.git/'], pipelineTriggers([githubPush()])])
+
 pipeline {
     agent any
     stages {
